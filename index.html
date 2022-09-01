@@ -1,14 +1,139 @@
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>UIBoat - Marketplace for designers</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <style type="text/css">
-      html { margin: 0; height: 100%; overflow: hidden; }
-      iframe { position: absolute; top: 15%; right: 0; bottom: 0; left: 0; border: 0; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2PG4P49XK1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  
+        gtag('config', 'G-2PG4P49XK1');
+      </script>
+      
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Where designers find the tools they need. Speed up your design process with high-quality UI kits, icons, templates, and more.">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="shortcut icon" href="../images/general/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/boxes.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+
+    <title>The marketplace for designers | UIBoat</title>
+
+    <style>
+      #home {
+        color: var(--ui-black);
+      }
     </style>
-  </head>
-  <body>
-    <iframe src="https://tally.so/r/3Npdpp?transparentBackground=1" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="Where designers find the tools they need"></iframe>
-  </body>
+</head>
+<body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+    </div>
+
+
+    <h1>Where designers find the tools they need</h1>
+   
+<div class="container">
+
+<section>  
+    <article>
+
+      <div class="padding-80-40">
+        <h6>Most popular</h6>
+        <p>What other designers use</p>
+      </div>
+
+      <div class="border-top border-bottom row-2-el-box">
+        <div  class="padding-80 small-spacing width-half">
+          <h5>ABC's of Design</h5>
+          <p>A collection created as a Notion database that explains the most used definitions, terms and acronyms in UX Design.</p>          
+        </div>
+       
+        <div class="border-left width-half">
+          <img class="box-img padding-80" src="../images/products/abc-design-image.png" alt="ABC's of Design">
+        </div>
+      </div>
+
+    </article>
+    <a class="secondaryButton border-bottom" href="../catalog/abc-of-design.html">Learn more <img src="../images/general/secondaryArrow.svg" alt="button arrow"></a>
+ 
+</section>
+
+<section>  
+  <article>
+
+    <div class="padding-80-40">
+      <h6>UI Kit</h6>
+      <p>The most popular UI Kit amongs designers</p>
+    </div>
+
+    <div class="border-top border-bottom row-2-el-box">
+      <div  class="padding-80 small-spacing width-half">
+        <h5>Untitled UI - The ultimate UI kit and design system for Figma</h5>
+        <p>Untitled UI is the largest UI kit and design system for Figma in the world. Kickstart any project, save thousands of hours, and level up as a designer.</p>           
+      </div>
+     
+      <div class="border-left width-half">
+        <img class="box-img padding-80" src="../images/untitled-ui/untitled-ui-01.jpg" alt="Untitled UI">
+      </div>
+    </div>
+
+  </article>
+  <a class="secondaryButton border-bottom" href="../catalog/untitled-ui.html">Learn more <img src="../images/general/secondaryArrow.svg" alt="button arrow"></a>
+
+</section>
+
+<section>  
+  <article>
+
+    <div class="padding-80-40">
+      <h6>Icons library</h6>
+      <p>The most popular icons library amongs designers</p>
+    </div>
+
+    <div class="border-top border-bottom row-2-el-box">
+      <div  class="padding-80 small-spacing width-half">
+        <h5>Untitled UI Icons - 4,600+ essential Figma icons</h5>
+        <p>A clean, consistent, and neutral icon library crafted specifically for modern UI design. Made for Figma, in Figma.</p>           
+      </div>
+     
+      <div class="border-left width-half">
+        <img class="box-img padding-80" src="../images/untitled-ui-icons/untitled-ui-icons-01.jpg" alt="Untitled UI">
+      </div>
+    </div>
+
+  </article>
+  <a class="secondaryButton border-bottom" href="../catalog/untitled-ui-icons.html">Learn more <img src="../images/general/secondaryArrow.svg" alt="button arrow"></a>
+
+</section>
+
+</div>
+
+
+<div id="footer-placeholder">
+</div>
+
+
+<!--Calling components-->
+<script>
+$(function(){
+  $("#nav-placeholder").load("../components/nav.html");
+});
+
+$(function(){
+  $("#footer-placeholder").load("../components/footer.html");
+});
+</script>
+<!--Calling components-->
+
+</body>
 </html>
