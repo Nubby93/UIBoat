@@ -17,6 +17,7 @@ nav {
 
 .listStyle {
   color: var(--ui-med-grey);
+  transition: color 0.5s;
 }
 .listStyle:hover {
   color: var(--ui-black);

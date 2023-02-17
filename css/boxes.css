@@ -1,3 +1,90 @@
+/* Column spacing */
+
+.flex-row-gap-8 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.flex-row-gap-16 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.flex-row-gap-32 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.flex-row-gap-64 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+
+.flex-row-gap-96 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 96x;
+}
+
+.flex-row-gap-128 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 128px;
+}
+
+.flex-row-gap-256 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 256px;
+}
+
+/* Row spacing */
+.flex-col-gap-16{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+.flex-col-gap-32{
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+}
+
+
+.flex-col-gap-64{
+    display: flex;
+    flex-direction: row;
+    column-gap: 64px;
+}
+
+/* img {
+    overflow: hidden;
+}
+
+article {
+    overflow: hidden; }*/
+
+
+article > img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+    border: 1px solid #f2f2f2;
+}
+
+article > img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
+/* OLD */
+
 
 /* padding & spacing */
 .padding-80-40 {
