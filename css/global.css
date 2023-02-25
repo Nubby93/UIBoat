@@ -113,7 +113,35 @@ li {
     list-style: none;
 }
 
+.separate-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 32px;
+  font-size: 24px;
+}
 
+
+.contact-page {
+  font-weight: 800;
+  font-size: 32px;
+  transition: transform 0.1s;
+  color: var(--brand-color);
+}
+
+.contact-page:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.listStyle:hover{
+  transition: transform 0.5s;
+}
+
+.listStyle:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
 
 /* Borders */
 .border-top {
