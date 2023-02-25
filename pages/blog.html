@@ -22,8 +22,9 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/boxes.css">
     <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/blog.css">
 
-    <title>UIBoat</title>
+    <title>UIBoat Blog</title>
 
     <style>
       #blog {
@@ -38,7 +39,60 @@
     </div>
 
 
-    <h1>Articles about Design + more</h1>
+
+    <main class="blogContainer">
+
+      <!-- <div id="blog-placeholder">
+      </div> -->
+
+      <h1>UIBoat Blog</h1>
+
+      <a class="textContainer" href="../blog/what-a-good-design-system-should-have.html">
+        <div class="top-left-text flex-col-48">
+          <div class="flex-col-24">
+            <p class="imgText-pill">web design</p>
+            <p class="imgText-lg">What a good design system should have: elements to include</p>
+          </div>
+          <p class="imgText-desc">When it comes to designing a successful product, a good design system is essential. A design system serves as the foundation for a product's visual language and ensures consistency across all platforms. In this article, we will explore the main elements that a good design system should include.</p>
+        </div>
+        <img class="blogThumb" src="../assets/blog/design-system-02/banner.png" alt="Article Banner">
+      </a>
+
+      <a class="textContainer" href="../blog/how-to-choose-the-right-icon-set-for-your-ui-design-project.html">
+        <div class="top-left-text flex-col-48">
+          <div class="flex-col-24">
+            <p class="imgText-pill">web design</p>
+            <p class="imgText-lg">How to choose the right icon set for your UI design project</p>
+          </div>
+          <p class="imgText-desc">Icons play a crucial role in creating visually appealing and user-friendly interfaces. They are an essential part of your brand identity and can make or break the user experience.</p>
+        </div>
+        <img class="blogThumb" src="../assets/blog/icons-01/banner.png" alt="Article Banner">
+      </a>
+
+
+      <a class="textContainer" href="../blog/why-you-should-use-design-systems.html">
+        <div class="top-left-text flex-col-48">
+          <div class="flex-col-24">
+            <p class="imgText-pill">web design</p>
+            <p class="imgText-lg">Why you should use design systems</p>
+          </div>
+          <p class="imgText-desc">Design systems are essential for companies and teams to create consistent and cohesive designs across all their products and services. In this blog article, we'll explore what a design system is, why it's important, and how to create one that works for your organization.</p>
+        </div>
+        <img class="blogThumb" src="../assets/blog/design-system-01/banner.png" alt="Article Banner">
+      </a>
+
+      <a class="textContainer" href="../blog/why-icons-are-important-for-the-UX.html">
+        <div class="top-left-text flex-col-48">
+          <div class="flex-col-24">
+            <p class="imgText-pill">web design</p>
+            <p class="imgText-lg">Why icons are important for the UX</p>
+          </div>
+          <p class="imgText-desc">Icons are used everywhere from web apps to the labels on our clothes. Their main purpose is to represent an action or object, which is why icons should convey a clear message regarding their purpose.</p>
+        </div>
+        <img class="blogThumb" src="../assets/blog/icons-02/banner.png" alt="Article Banner">
+      </a>
+
+    </main>
    
 <div class="container">
 
@@ -51,6 +105,10 @@
 
 <!--Calling components-->
 <script>
+$(function(){
+  $("#blog-placeholder").load("../components/blog-nav.html");
+});
+
 $(function(){
   $("#nav-placeholder").load("../components/nav.html");
 });
