@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2PG4P49XK1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  
+        gtag('config', 'G-2PG4P49XK1');
+      </script>
+      
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="shortcut icon" href="../images/general/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/boxes.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/blog.css">
+
+    <title>Set title</title>
+
+    <style>
+      #blog {
+        color: var(--ui-black);
+      }
+    </style>
+</head>
+<body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+    </div>
+
+    <main class="blogContent">
+
+      <button class="back" onclick="history.back()"><span> go back</span></button> 
+
+      <section>
+        <p class="blogCategory">category</p>
+        <h1>blog title</h1>
+        <p>Description</p>
+        <p class="blogAuthor">by Iulian Pistol</p> 
+      </section>
+      
+      <section>
+        <article>
+            <img style="border: 1px solid #F9FAFC;" src="../assets/blog/icons-01/image00.png" alt="How to choose the right icon set for your UI design project">
+            <p>snippet from the icon set <a target="_blank" href="https://gumroad.com/a/980070227/MmpZu">Myicons</a></p>
+        </article>
+        </section>
+
+      <section>
+        <p>Intro</p>
+        <img src="../assets/blog/icons-01/image01.png" alt="How to choose the right icon set for your UI design project">
+      </section>
+
+      <section>
+        <p class="blogContent-Subtitle">Icon style</p>
+        <p></p>  
+        <p></p>  
+        <p></p>  
+        
+        <article>
+            <img src="../assets/blog/icons-01/image02.png" alt="How to choose the right icon set for your UI design project">
+            <p>example from the icon set <a target="_blank" href="https://gumroad.com/a/862763219/picIj">Universal Icon Set</a></p>
+        </article>
+    </section>
+
+    <hr>
+    <section>
+      <p class="blogContent-Subtitle">Conclusion</p>
+      <p></p>
+  </section>
+
+    </main>
+   
+<div class="container">
+
+</div>
+
+
+<div id="footer-placeholder">
+</div>
+
+
+<!--Calling components-->
+<script>
+
+
+$(function(){
+  $("#nav-placeholder").load("../components/nav.html");
+});
+
+$(function(){
+  $("#footer-placeholder").load("../components/footer.html");
+});
+</script>
+<!--Calling components-->
+
+</body>
+</html>    
